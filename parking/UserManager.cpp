@@ -3,7 +3,7 @@
 #ifdef _WIN32
 #include <windows.h>
 #endif
-
+// :filename 클래스의 변수 ( 매개 변수)
 UserManager::UserManager(const string& filename) : filename(filename) {
     loadFromCSV();
 }
